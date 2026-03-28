@@ -66,8 +66,8 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 
             document.querySelector('.js-moves').
                 innerHTML = `You 
-                    <img src="RPS emoji/${playerMove}-emoji.png" class="move-icon">
-                    <img src="RPS emoji/${computerMove}-emoji.png" class="move-icon">
+                    <img src="RPS-emoji/${playerMove}-emoji.png" class="move-icon">
+                    <img src="RPS-emoji/${computerMove}-emoji.png" class="move-icon">
                     Computer`;
         }
     
